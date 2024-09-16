@@ -1,0 +1,11 @@
+name,popularity,duration_ms,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,time_signature
+Hips Don't Lie (feat. Wyclef Jean),86,218093,0.778,0.824,10,-5.892,0,0.0707,0.284,0.0,0.405,0.758,100.024,4
+TQG,83,197933,0.587,0.647,4,-3.385,0,0.327,0.619,0.0,0.106,0.686,90.123,4
+Dia de Enero,81,173133,0.687,0.361,10,-11.589,1,0.0792,0.35,1.11e-05,0.11,0.526,165.747,4
+Antologia,79,254240,0.839,0.403,0,-11.059,1,0.0308,0.5,1.81e-06,0.0786,0.575,97.967,4
+Inevitable,79,192866,0.595,0.461,6,-7.786,1,0.0641,0.269,0.000149,0.123,0.338,91.976,4
+"Shakira: Bzrp Music Sessions, Vol. 53",78,214945,0.842,0.745,2,-4.231,0,0.0399,0.281,2.61e-05,0.118,0.53,122.06,4
+"Whenever, Wherever",61,197026,0.793,0.831,1,-4.861,0,0.0405,0.264,7.03e-06,0.207,0.865,107.645,4
+Chantaje (feat. Maluma),78,195840,0.852,0.773,8,-2.921,0,0.0776,0.187,3.05e-05,0.159,0.907,102.034,4
+Waka Waka (This Time for Africa) [The Official 2010 FIFA World Cup (TM) Song] (feat. Freshlyground),74,202466,0.764,0.887,11,-6.088,0,0.176,0.00987,0.0,0.0585,0.816,126.974,4
+Can't Remember to Forget You (feat. Rihanna),74,206866,0.694,0.81,11,-3.556,0,0.0661,0.122,0.0,0.141,0.824,137.968,4
