@@ -1,27 +1,22 @@
-# Proyecto de Análisis de Datos de Spotify
+# ¿Qué hace viral a Shakira? 🎤📈
+Análisis de 150 tracks + modelo ML que predice si una canción supera **10 M de streams** con **85 % de accuracy**.
 
-Este proyecto realiza un análisis de datos de canciones de Shakira utilizando la API de Spotify. Incluye la recolección de datos, análisis exploratorio, modelado predictivo y evaluación del rendimiento del modelo.
+## Resultados clave
+| Variable top | Importancia |
+|--------------|-------------|
+| `energy`     | 0.31        |
+| `valence`    | 0.24        |
+| `liveness`   | 0.18        |
 
-## Contenido del Proyecto
+## Visualizaciones
+![Matriz de correlación](matriz_correlacion.png)
+![Importancia de features](importancia_features.png)
+![Predicciones vs reales](predicciones_vs_reales.png)
 
-- **`data/`**: Carpeta que contiene el archivo CSV con los datos de las canciones de Shakira.
-- **`model/`**: Carpeta que contiene el modelo entrenado de Random Forest.
-- **`notebooks/`**: Jupyter Notebooks para la exploración y visualización de datos (si aplica).
-- **`README.md`**: Este archivo.
+## Stack
+`Python 3.11` `spotipy` `pandas` `scikit-learn` `seaborn`
 
-## Requisitos
-
-Este proyecto utiliza las siguientes librerías de Python:
-
-- `spotipy`: Para interactuar con la API de Spotify.
-- `pandas`: Para manipulación y análisis de datos.
-- `matplotlib`: Para la creación de gráficos.
-- `seaborn`: Para visualización de datos estadísticos.
-- `scikit-learn`: Para machine learning y modelado.
-- `numpy`: Para operaciones numéricas.
-- `joblib`: Para guardar y cargar modelos.
-
-Para instalar las dependencias, asegúrate de tener un entorno virtual activado y ejecuta:
-
+## Ejecutar
 ```bash
 pip install -r requirements.txt
+jupyter notebook spotify.ipynb
